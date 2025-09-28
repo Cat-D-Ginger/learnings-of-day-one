@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Basics</title>
+    <link rel="stylesheet" href="A001.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="header">
+    <h1 class="basics">HTML & CSS Basics</h1>
+    <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vel ab a optio inventore natus saepe mollitia assumenda Unde, incidunt tempore vel aperiam autem maiores repudiandae exercitationem, officia quas eligendi velit! <span style="text-decoration: underline; font-style: italic;">LOREM-- This term is used to fill the space where the actual content will be placed.</span>
+    </p>
+    </div>
+    <div class="box">
+        <h2 class="headings">Headings</h2>
+        <h1 class="head">Heading 1~</h1> <p class="heads">&lt;h1>____&lt;h1>,&nbsp &nbsp</p>
+        <h2 class="head">Heading 2~</h2> <p class="heads">&lt;h2>____&lt;h2>, &nbsp &nbsp</p>
+        <h3 class="head">Heading 3~</h3> <p class="heads">&lt;h3>____&lt;h3>, &nbsp &nbsp</p>
+        <h4 class="head">Heading 4~</h4> <p class="heads">&lt;h4>____&lt;h4>, &nbsp &nbsp</p>
+        <h5 class="head">Heading 5~</h5> <p class="heads">&lt;h5>____&lt;h5>, &nbsp &nbsp</p>
+        <h6 class="head">Heading 6~</h6> <p class="heads">&lt;h6>____&lt;h6> &nbsp &nbsp</p>
+    </div>
+    <div class="links">
+        <h2 class="link">Links</h2>
+        <a target="_blank" href="https://www.example.com">This is a link</a>
+        <p class="anchor"> Anchor Tag~ &nbsp &lt;a href="https://example.com"&gt;Click Here&lt;/a&gt;</p>
+    </div>
+    <div class="Hancock">
+        <h2 class="image">Images</h2>
+        <img height="400px" src="../HTML Basics/Hancock.jpg" alt="Boa Hancock">
+        <p class="extra">Image Tag~ &nbsp &lt;img src="image.jpg" alt="Description"&gt;</p>
+    </div>
+    <div class="Hancock">
+        <h2 class="image">Videos</h2>
+        <video height="300" controls autoplay loop muted>
+            <source src="../HTML Basics/Boa.mp4" type="video/mp4">
+        </video>
+        <p class="extra">Video Tag~ &nbsp &lt;video width="320" height="240" controls&gt; &lt;source src="movie.mp4" type="video/mp4"&gt; Video Not Supported &lt;/video&gt;</p>
+    </div>
+    <div class="Boa">
+        <h2 class="alpha">Forms</h2>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter Your Name">
+        <p class="extra">Label Tag~ &lt;label for="id"> Name &lt;/label></p>
+        <p class="extra">Input Tag~ &lt;type="text" id="name" placeholder="Enter Your Name"</p>
+        <br>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password Input"> 
+        <p class="extra">Input Tag~ &lt;input type="password" placeholder="Password Input"&gt;</p>
+        <br>
+        <br>
+        <label for="checkbox">Checkbox</label>
+        <input type="checkbox">
+        <p class="extra">Input Tag~ &lt;input type="checkbox"&gt;</p>
+        <br>
+        <br>
+        <input type="radio" name="radioGroup"> Radio Button 1
+        <input type="radio" name="radioGroup"> Radio Button 2
+        <p class="extra">Input Tag~ &lt;input type="radio" name="radioGroup"&gt;</p>
+        <br>
+        <br>
+        <label for="textarea">Textarea</label>
+        <textarea placeholder="Textarea"></textarea>
+        <p class="extra">Textarea Tag~ &lt;textarea placeholder="Textarea"&gt;&lt;/textarea&gt;</p>
+        <br>
+        <br>
+        <label for="select">Select</label>
+        <select>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+        </select>
+        <p class="extra">Select Tag~ &lt;select&gt; &lt;option value="option1"&gt;Option 1&lt;/option&gt; &lt;option value="option2"&gt;Option 2&lt;/option&gt; &lt;option value="option3"&gt;Option 3&lt;/option&gt; &lt;/select&gt;</p>
+        <br>
+        <br>
+        <h2 class="alpha">Lists</h2>
+        <h3>Unordered List</h3>
+        <div class="set">
+        <ul>
+            <li>Unordered List Item 1</li>
+            <li>Unordered List Item 2</li>
+            <li>Unordered List Item 3</li>
+        </ul>
+        </div>
+        <p class="extra">Unordered List Tag~ &lt;ul&gt; &lt;li&gt;Item 1&lt;/li&gt; &lt;li&gt;Item 2&lt;/li&gt; &lt;li&gt;Item 3&lt;/li&gt; &lt;/ul&gt;</p>
+        <h3>Ordered List</h3>
+        <div class="set">
+        <ol>   
+            <li>Ordered List Item 1</li>
+            <li>Ordered List Item 2</li>
+            <li>Ordered List Item 3</li>  
+        </ol>
+        </div>
+        <p class="extra">Ordered List Tag~ &lt;ol&gt; &lt;li&gt;Item 1&lt;/li&gt; &lt;li&gt;Item 2&lt;/li&gt; &lt;li&gt;Item 3&lt;/li&gt; &lt;/ol&gt;</p>
+        <br>
+        <br>
+        <h2 class="alpha">Tables</h2>
+        <div class="set">
+        <table border="1">
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+                <td>Data 3</td>
+            </tr>
+            <tr>
+                <td>Data 4</td>
+                <td>Data 5</td>
+                <td>Data 6</td>
+            </tr>  
+        </table> 
+        </div>
+        <p class="extra">Table Tag~ &lt;table border="1"&gt; &lt;tr&gt; &lt;th&gt;Header 1&lt;/th&gt; &lt;th&gt;Header 2&lt;/th&gt; &lt;th&gt;Header 3&lt;/th&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Data 1&lt;/td&gt; &lt;td&gt;Data 2&lt;/td&gt; &lt;td&gt;Data 3&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Data 4&lt;/td&gt; &lt;td&gt;Data 5&lt;/td&gt; &lt;td&gt;Data 6&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt;</p>
+        <br>
+        <br>
+        <h2 class="alpha">Iframes</h2>
+        <iframe src="https://www.sheryians.com/" frameborder="0"></iframe>
+        <p class="extra">Iframe Tag~ &lt;iframe src="https://www.sheryians.com/" frameborder="0"&gt;&lt;/iframe&gt;</p>
+        <br>
+        <br>
+        </div>
+</body>
+</html>
